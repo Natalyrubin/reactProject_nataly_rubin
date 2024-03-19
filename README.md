@@ -11,6 +11,8 @@ This project is a React-based application utilizing TypeScript, HTML, and CSS. T
 - **Personal Cards**: Users can create, edit, and view their personal business cards. Editing features include updating business details.
 - **Favorites**: Users can mark cards as favorites and access them in a dedicated tab.
 - **Admin Privileges**: Admin users have all user permissions and additional capabilities to manage all cards. The admin can decide which cards should not be displayed.
+- **Responsive Design**: The project supports both light mode and dark mode, switchable via a button in the header.
+- **Search Functionality**: Users can search for specific cards using a search bar, which filters cards based on user-defined keywords.
 
 ### Installation
 To navigate the project and enable routing functionality, download the node_modules folder and install React Router DOM by running the following command:
