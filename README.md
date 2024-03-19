@@ -1,5 +1,5 @@
-# reactProject_nataly_rubin
-# Project README
+# React Project_nataly_rubin README
+
 
 ## Overview
 This project is a React-based application utilizing TypeScript, HTML, and CSS. The application provides digital business card services to businesses.
