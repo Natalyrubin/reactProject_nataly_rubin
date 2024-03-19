@@ -13,7 +13,9 @@ This project is a React-based application utilizing TypeScript, HTML, and CSS. T
 - **Admin Privileges**: Admin users have all user permissions and additional capabilities to manage all cards. The admin can decide which cards should not be displayed.
 
 ### Installation
-To navigate the project, download the node_modules folder and run the application through the terminal.
+To navigate the project and enable routing functionality, download the node_modules folder and install React Router DOM by running the following command:
+```bash
+npm i react-router-dom
 
 ### Note
 Ensure proper navigation by running the application through the terminal and accessing it via the browser.
