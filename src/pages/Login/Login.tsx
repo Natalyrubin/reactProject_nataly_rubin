@@ -64,11 +64,6 @@ export default function Login() {
                 <button type='submit'>Sign In</button>
             </form>
 
-            <p>Abc!123Abc</p>
-            <p>Nat123456!</p>
-
-
-
             <p>Not SignUp yet? <br></br> Click here and Join Us</p>
             <button><Link to="/signup">Sign Up</Link></button>
         </div>
