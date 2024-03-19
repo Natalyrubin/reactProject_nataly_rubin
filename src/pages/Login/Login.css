@@ -4,8 +4,10 @@
 
 
 .Login p {
+    font-weight: bold;
     width: 80%;
     margin: auto;
+    margin-top: 60px;
 }
 
 .Login form {
