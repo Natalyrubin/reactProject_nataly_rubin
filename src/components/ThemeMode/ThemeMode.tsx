@@ -39,16 +39,6 @@ export default function ThemeMode() {
 
 
 
-  /*   useEffect(() => {
-      const storedTheme = localStorage.getItem('themeMode');
-  
-      if (storedTheme === 'dark') {
-      } else {
-      }
-    }, []); */
-
-
-
 
   return (
     <div className='ThemeMode'>
