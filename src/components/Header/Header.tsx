@@ -21,7 +21,7 @@ export default function Header() {
 
       <div className='leftNav'>
         <Link to='/'>
-          <img className='logo' alt='' src="/assets/img/logo.png" />
+          <img className='logo' alt='logo' src="/assets/img/logo.png" />
         </Link>
 
         <HamburgerNavBar />
