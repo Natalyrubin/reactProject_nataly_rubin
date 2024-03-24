@@ -52,7 +52,7 @@ export default function ThemeMode() {
 
   return (
     <div className='ThemeMode'>
-      <img src={`/assets/img/${isLightMode ? 'dark-mode' : 'light'}.png`} alt="" onClick={toggleTheme} />
+      <img src={`/assets/img/${isLightMode ? 'dark-mode' : 'light'}.png`} alt="ThemeMode" onClick={toggleTheme} />
     </div>
   );
 };
