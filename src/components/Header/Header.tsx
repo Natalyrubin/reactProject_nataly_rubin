@@ -51,7 +51,7 @@ export default function Header() {
           }}
         />
 
-        <img className='userImg' alt={auth?.isSignedIn ? auth.userDetails?.image.alt : ""} src={auth?.isSignedIn ? auth.userDetails?.image.url : "/assets/img/user.png"} />
+        <img className='userImg' alt={auth?.isSignedIn ? auth.userDetails?.image.alt : "user img"} src={auth?.isSignedIn ? auth.userDetails?.image.url : "/assets/img/user.png"} />
 
       </div>
 
