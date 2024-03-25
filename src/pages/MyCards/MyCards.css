@@ -1,0 +1,11 @@
+.MyCards {
+    width: 80%;
+    margin: auto;
+}
+
+
+.MyCards a {
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
