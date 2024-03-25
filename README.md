@@ -7,9 +7,9 @@ This project is a React-based application utilizing TypeScript, HTML, and CSS. T
 - **Guest Access**: Upon entering the application as a guest, users can read information about the business and its portfolio.
 - **Business Cards**: Each business card displays contact information, including an inactive phone icon to prevent direct calls.
 - **User Registration**: Guests can register as new users. Business users gain additional permissions, including access to personal card creation and favorite cards tab.
-- **Personal Cards**: Users can create, edit, and view their personal business cards. Editing features include updating business details.
+- **Personal Cards**: Users can create, edit, delete and view their personal business cards. Editing features include updating business details and delete the card.
 - **Favorites**: Users can mark cards as favorites and access them in a dedicated tab.
-- **Admin Privileges**: Admin users have all user permissions and additional capabilities to manage all cards. The admin can decide which cards should not be displayed.
+- **Admin Privileges**: Admin users have all user permissions and additional capabilities to manage all cards. The admin can decide which cards should be deleted - but i choose not to do it at the admin permissions, because of the chaos it creates. The deletion option is only possible on the My Cards page.
 - **Responsive Design**: The project supports both light mode and dark mode, switchable via a button in the header.
 - **Search Functionality**: Users can search for specific cards using a search bar, which filters cards based on user-defined keywords.
 
