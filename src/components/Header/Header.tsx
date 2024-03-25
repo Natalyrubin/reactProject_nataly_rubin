@@ -38,7 +38,7 @@ export default function Header() {
 
         <ThemeMode />
 
-        <img className='loginImg' alt='' src="/assets/img/log-in.png" style={{ display: auth?.isSignedIn ? "none" : "block" }} onClick={() => navigate('/login')} />
+        <img className='loginImg' alt='login' src="/assets/img/log-in.png" style={{ display: auth?.isSignedIn ? "none" : "block" }} onClick={() => navigate('/login')} />
 
         <img
           className='logoutImg'
