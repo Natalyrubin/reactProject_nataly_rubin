@@ -14,7 +14,6 @@ import Cards from '../../pages/Cards/Cards'
 import MyCards from '../../pages/MyCards/MyCards'
 import Login from '../../pages/Login/Login'
 import SignUp from '../../pages/SignUp/SignUp'
-import User from '../../pages/User/User'
 import FavCards from '../../pages/FavCards/FavCards'
 import CreateNewCard from '../../pages/CreateNewCard/CreateNewCard'
 import UpdateCard from '../../pages/UpdateCard/UpdateCard'
@@ -35,7 +34,6 @@ export default function Default() {
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/cards' element={<Cards />} />
-          <Route path='/user' element={<User />} />
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/mycards' element={<MyCards />} />
